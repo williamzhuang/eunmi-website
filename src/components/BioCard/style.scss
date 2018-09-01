@@ -1,0 +1,66 @@
+
+.bio-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+      
+
+    .left-column {
+        width: 50%;
+        display: flexbox;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        padding-left: 8em;
+        padding-right: 3em;
+
+        .name-card {
+            padding-top: 8em;
+
+            .career-title {
+                color: white;
+                font-size: 1.5em;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .giant-name {
+                font-size: 7em;
+                font-family: 'Noto Serif', serif;
+            }
+        }
+    
+        .biography {
+            font-family: 'Poppins', sans-serif;
+
+            h1 {
+                color:#FDAFB0;    
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+            padding-top: 2em;
+        }
+    }
+
+    .right-column {
+        width: 50%;
+        padding-right: 5em;
+        padding-left: 3em;
+
+        .photo {
+            padding-top: 6em;
+            text-align: center;
+            .profile-photo {
+                width: 60%;
+                min-width: 30em;
+                
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+            }
+        }
+    }
+
+    
+}

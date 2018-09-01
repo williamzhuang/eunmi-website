@@ -1,0 +1,87 @@
+.contact-card {
+    width: 100%;
+    margin-top: 0;
+    padding: 20% 0 15% 0;
+    height: 100%;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #FDAFB0;
+    color: white;
+    
+    h1 {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    a {
+        
+        text-decoration: none;
+    }
+
+    .facebook {
+        color: #3B5998;
+        transition: .3s;
+
+        &:hover {
+            color: rgb(13, 146, 255);
+        }
+    }
+
+    .instagram {
+        color: #E1306C;
+        background: -webkit-linear-gradient(left, #405DE6, #E1306C, #F77737); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #405DE6, #E1306C, #F77737); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #405DE6, #E1306C, #F77737); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #405DE6, #E1306C, #F77737); /* Standard syntax (must be last) */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-transition: .3s;
+        transition: .3s;
+
+
+        &:hover {
+            background: -webkit-linear-gradient(left, rgb(0, 42, 255), rgb(255, 0, 85), rgb(255, 85, 0)); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, rgb(0, 42, 255), rgb(255, 0, 85), rgb(255, 85, 0)); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, rgb(0, 42, 255), rgb(255, 0, 85), rgb(255, 85, 0)); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, rgb(0, 42, 255), rgb(255, 0, 85), rgb(255, 85, 0)); /* Standard syntax (must be last) */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .linkedin {
+        color: #0077B5;
+        transition: .3s;
+
+        &:hover {
+            color: rgb(0, 166, 255);
+        }
+    }
+
+    .naver {
+        color: #3EAF0E;
+        transition: .3s;
+
+        &:hover {
+            color: rgb(77, 255, 0);
+        }
+    }
+
+    .info {
+        text-align: right;
+        padding-right: 3em;
+        margin-left: -5em;
+    }
+
+    .social {
+        text-align: left;
+        padding-left: 3em;
+    }
+    
+}

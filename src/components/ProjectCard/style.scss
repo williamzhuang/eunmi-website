@@ -1,0 +1,57 @@
+.project-card {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 100%;
+
+    .images-container {
+        width: 45%;
+        padding-left: 5em;
+        padding-right: 5em;
+
+        img {
+            width: 100%;
+            transition: all 0.2s ease;
+            max-width: 100%;
+            display: block;
+
+            &:hover {
+                transform:scale(1.1);
+            
+            }
+        }
+    }
+
+    .text-container {
+        width: 50%;
+        padding-left: 5em;
+        padding-right: 5em;
+
+        h2 {
+            font-size: 1.7em;
+            margin: 0;
+        }
+
+        h3 {
+            margin: 0;
+        }
+        
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+}
+
+.reverse {
+
+    flex-direction: row-reverse;
+
+    .text-container {
+        text-align: right;
+    }
+    
+}

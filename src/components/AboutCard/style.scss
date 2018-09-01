@@ -1,0 +1,86 @@
+.about-card {
+    padding-top: 5em;
+    padding-left: 2em;
+    
+    h1 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color:#FDAFB0; 
+    }
+
+    .about-breakdown {
+        display: flex;
+        
+        .about-cell {
+            width: 25%;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+
+            h2 {
+                font-weight: normal;
+            }
+
+            .title {
+                font-weight: bold;
+                font-size: 1.2em;
+                padding-bottom: 0.5em;
+                padding-top: 0.5em;
+            }
+        }
+    }
+
+    .resume-download-container { 
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+
+        .download-button {
+            width: 7em;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid #FDAFB0;
+            text-align: center;
+            position: relative;
+            overflow:hidden;
+            transition: .3s;
+
+            a {
+                display: block;
+                height: 100%;
+                padding: 0.95em 1em;
+                color: #FDAFB0;
+                text-decoration: none;
+
+            }
+            
+            &:after {
+                position: absolute;
+                transition: .3s;
+                content: '';
+                width: 0;
+                left: 50%;
+                bottom: 0;
+                height: 3px;
+                background: #FDAFB0;
+                height: 120%;
+                left: -10%;
+                transform: skewX(15deg);
+                z-index: -1;
+            }
+
+            &:hover {
+                cursor: pointer;
+                &:after {
+                    width: 120%;
+                    left: -10%;
+                }
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+    
+}

@@ -6,9 +6,8 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import { slide as Menu } from 'react-burger-menu'
 import scrollToComponent from 'react-scroll-to-component'
 import AOS from 'aos'
+import { Helmet } from 'react-helmet'
 import 'aos/dist/aos.css'
-import MetaTags from 'react-meta-tags'
-import Favicon from 'react-favicon';
 //
 import './app.scss'
 import Header from './components/Header'
@@ -50,13 +49,10 @@ class App extends Component {
   render () {
     return (
       <ParallaxProvider>
+        <Helmet>
+          <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+        </Helmet>
         <div className="App">
-          {typeof window !== 'undefined' && (
-            <div>
-              <Favicon url={window.location.href.substring(0, window.location.href.lastIndexOf('/')) + require('../public/moon.png')}/>
-            </div>
-          )}
-          
           <div className='menu-drawer'>
             <Menu isOpen={this.state.isOpen}>
               <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.bioRef)} >home</button>

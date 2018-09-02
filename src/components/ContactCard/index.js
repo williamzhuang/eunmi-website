@@ -5,7 +5,7 @@ import './style.scss'
 class ContactCard extends Component {
     render() {
         return (
-            <div className='contact-card' data-aos='fade-up' >
+            <div className='contact-card'>
                 <div className='info' data-aos='fade-right'>
                     <h1> contact me </h1>
                     <h2> Eunmi Kim </h2>

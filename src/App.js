@@ -51,10 +51,15 @@ class App extends Component {
     return (
       <ParallaxProvider>
         <div className="App">
-          <Favicon url={window.location.href.substring(0, window.location.href.lastIndexOf('/')) + require('../public/moon.png')}/>
-          <MetaTags>
-            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
-          </MetaTags>
+          {typeof window !== 'undefined' && (
+            <div>
+              <Favicon url={window.location.href.substring(0, window.location.href.lastIndexOf('/')) + require('../public/moon.png')}/>
+              <MetaTags>
+                <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+              </MetaTags>
+            </div>
+          )}
+          
           <div className='menu-drawer'>
             <Menu isOpen={this.state.isOpen}>
               <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.bioRef)} >home</button>

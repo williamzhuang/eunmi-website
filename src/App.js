@@ -54,9 +54,6 @@ class App extends Component {
           {typeof window !== 'undefined' && (
             <div>
               <Favicon url={window.location.href.substring(0, window.location.href.lastIndexOf('/')) + require('../public/moon.png')}/>
-              <MetaTags>
-                <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
-              </MetaTags>
             </div>
           )}
           

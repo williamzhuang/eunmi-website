@@ -10,6 +10,10 @@ body {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .background-pink {
@@ -39,9 +43,9 @@ h1 {
   /* Position and sizing of burger button */
   .bm-burger-button {
     position: fixed;
-    width: 2.5em;
-    height: 2em;
-    left: 3em;
+    width: 2em;
+    height: 1.7em;
+    left: 2em;
     top: 2em;
 
     visibility: visible;

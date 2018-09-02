@@ -71,17 +71,27 @@
             padding-left: 4em;
             padding-right: 4em;
 
-            .photo {
-                .profile-photo {
-                    box-shadow: none;
+            .biography {
+                p {
+                    padding-left: 1em;
+                    padding-right: 1em;
+                    font-size: 1.2em;
                 }
             }
+
+            
         }
 
         .right-column {
             width: 0;
             padding: 0;
             visibility: hidden;
+
+            .photo {
+                .profile-photo {
+                    box-shadow: none;
+                }
+            }
         }
     }
 }

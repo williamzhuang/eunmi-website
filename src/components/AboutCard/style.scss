@@ -88,11 +88,16 @@
 
 @media only screen and (max-width: 961px) {
     .about-card {
+        padding: 0;
         .about-breakdown {
             flex-direction: column;
-
+            
             .about-cell {
                 width: 100%;
+                padding-bottom: 3em;
+                h2 {
+                    margin-top: 0em;
+                }
             }
         }
     }

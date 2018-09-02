@@ -7,6 +7,8 @@ import { slide as Menu } from 'react-burger-menu'
 import scrollToComponent from 'react-scroll-to-component'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import MetaTags from 'react-meta-tags'
+import Favicon from 'react-favicon';
 //
 import './app.scss'
 import Header from './components/Header'
@@ -16,9 +18,10 @@ import ProjectsSection from './components/ProjectsSection'
 import BlogSection from './components/BlogSection'
 import ContactCard from './components/ContactCard'
 
+
 if (typeof document !== 'undefined') {
   AOS.init({
-    delay: 250
+    delay: 300
   })
 }
 
@@ -31,7 +34,6 @@ class App extends Component {
     this.projectsRef = React.createRef();
     this.blogRef = React.createRef();
     this.contactRef = React.createRef();
-    
 
     this.state ={
       isOpen: false
@@ -49,6 +51,10 @@ class App extends Component {
     return (
       <ParallaxProvider>
         <div className="App">
+          <Favicon url={window.location.href.substring(0, window.location.href.lastIndexOf('/')) + require('../public/moon.png')}/>
+          <MetaTags>
+            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+          </MetaTags>
           <div className='menu-drawer'>
             <Menu isOpen={this.state.isOpen}>
               <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.bioRef)} >home</button>
@@ -60,7 +66,7 @@ class App extends Component {
           </div>
 
           <StickyHeader header={<Header bioRef={this.bioRef} aboutRef={this.aboutRef} projectsRef={this.projectsRef} blogRef={this.blogRef} contactRef={this.contactRef}/>} headerOnly/>
-          <div className='background-pink' data-aos='fade-down' data-aos-delay={450}/>
+          <div className='background-pink' data-aos='fade-down' />
           <BioCard ref={this.bioRef}/>
           <AboutCard ref={this.aboutRef}/>
           <ProjectsSection ref={this.projectsRef}/>

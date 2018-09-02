@@ -6465,6 +6465,10 @@ react-es6-component@*:
   dependencies:
     underscore "1.8.3"
 
+react-favicon@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/react-favicon/-/react-favicon-0.0.14.tgz#3c9c7b999d106e6e112f729ab929b8dbec05b280"
+
 react-fittext@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-fittext/-/react-fittext-1.0.0.tgz#836a1c04f9322f6c94cb69e45c66006fc42d37a5"
@@ -6499,6 +6503,13 @@ react-is@^16.3.2, react-is@^16.4.2:
 react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+
+react-meta-tags@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/react-meta-tags/-/react-meta-tags-0.4.2.tgz#b7e2236daad9789d799071ba2de375c382fa8982"
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
 
 react-overlays@^0.8.0:
   version "0.8.3"

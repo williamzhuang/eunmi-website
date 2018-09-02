@@ -95,7 +95,7 @@ class ProjectsSection extends Component {
     render() {
         return (
             <div className='projects-section' >
-                <h1 data-aos='fade-up' data-aos-delay={250}>projects</h1>
+                <h1 data-aos='fade-up' >projects</h1>
                 <ProjectCard images={this.state.flexfitImages}>
                     <h2>Global Communication</h2>
                     <h3>Internship at Flexfit LLC (Jan - June 2018)</h3>

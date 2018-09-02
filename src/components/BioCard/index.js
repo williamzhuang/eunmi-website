@@ -16,7 +16,7 @@ class BioCard extends Component {
                             Kim
                         </div>
                     </div>
-                    <div className='biography' data-aos='fade-up' data-aos-delay={450}>
+                    <div className='biography' data-aos='fade-up'>
                         <h1>biography</h1>
                         <p>
                             Hello, I’m Eunmi, a creative marketer based in Seoul, South Korea.
@@ -27,7 +27,7 @@ class BioCard extends Component {
                     </div>
                 </div>
                 <div className='right-column'>
-                    <div className='photo' data-aos='fade-left' data-aos-delay={350}>
+                    <div className='photo' data-aos='fade-left'>
                         <img className='profile-photo' alt='eunmikim' src={require('../../../public/eunmi.jpg')}/>
                     </div>
                 </div>

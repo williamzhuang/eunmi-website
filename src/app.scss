@@ -25,3 +25,107 @@ h1 {
   font-size: 2.5em;
   color: #FDAFB0;
 }
+
+.bm-burger-button {
+  visibility: hidden;
+}
+
+
+@media only screen and (max-width: 961px) {
+  .background-pink {
+    margin-left: 0;
+  }
+
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 2.5em;
+    height: 2em;
+    left: 3em;
+    top: 2em;
+
+    visibility: visible;
+  }
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: black;
+    
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: white;
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    background-color: #FDAFB0;
+    overflow: hidden!important;
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: white;
+    padding: 0.8em;
+    overflow: hidden;
+  }
+
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-item {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    overflow:hidden;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    transition: .3s;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    
+    &:after {
+        position: absolute;
+        transition: .3s;
+        content: '';
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        height: 3px;
+        background: #f7f7f7;
+    }
+    &:hover {
+        cursor: pointer;
+        &:after {
+          width: 100%;
+          left: 0;
+        }
+    }
+  }
+}   

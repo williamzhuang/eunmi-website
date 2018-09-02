@@ -16,6 +16,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.9.3",
     "react": "^16.0.0",
+    "react-burger-menu": "^2.5.2",
     "react-dom": "^16.0.0",
     "react-fittext": "^1.0.0",
     "react-hot-loader": "^4.3.5",

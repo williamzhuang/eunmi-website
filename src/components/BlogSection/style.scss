@@ -60,3 +60,15 @@
     }
     
 }
+
+@media only screen and (max-width: 961px) {
+    .blog-section {
+        .blogs-container {
+            flex-direction: column;
+            .blog-entry {
+                text-align: center;
+                padding-bottom: 2em;
+            }
+        }
+    }
+}   

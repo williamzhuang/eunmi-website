@@ -18,6 +18,8 @@
 
             h2 {
                 font-weight: normal;
+                margin-bottom: 0;
+                margin-top: 2em;
             }
 
             .title {
@@ -82,5 +84,16 @@
             }
         }
     }
-    
+}
+
+@media only screen and (max-width: 961px) {
+    .about-card {
+        .about-breakdown {
+            flex-direction: column;
+
+            .about-cell {
+                width: 100%;
+            }
+        }
+    }
 }

@@ -61,6 +61,27 @@
             }
         }
     }
+}
 
-    
+@media only screen and (max-width: 961px) {
+    .bio-card {
+        .left-column {
+            width: 100%;
+            text-align: center;
+            padding-left: 4em;
+            padding-right: 4em;
+
+            .photo {
+                .profile-photo {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .right-column {
+            width: 0;
+            padding: 0;
+            visibility: hidden;
+        }
+    }
 }

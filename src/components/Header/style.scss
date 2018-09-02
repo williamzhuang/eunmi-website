@@ -73,3 +73,9 @@
     }
 }
 
+@media only screen and (max-width: 961px) {
+    .header {
+        margin-left: 0;
+        visibility: hidden;
+    }
+}   

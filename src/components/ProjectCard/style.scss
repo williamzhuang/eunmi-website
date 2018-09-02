@@ -55,3 +55,23 @@
     }
     
 }
+
+@media only screen and (max-width: 961px) {
+    .project-card {
+        flex-direction: column-reverse;
+        padding-top: 0em;
+
+        .images-container {
+            width: 100%;
+
+        }
+
+        .text-container {
+            width: 80%;
+            text-align: center;
+            p {
+                font-size: 1.1em;
+            }
+        }
+    }
+}   

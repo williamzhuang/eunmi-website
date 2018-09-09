@@ -69,8 +69,7 @@
         .left-column {
             width: 100%;
             text-align: center;
-            padding-left: 4em;
-            padding-right: 4em;
+            padding: 0;
 
             .biography {
                 p {
@@ -86,7 +85,7 @@
         .right-column {
             width: 0;
             padding: 0;
-            visibility: hidden;
+            display: none;
 
             .photo {
                 .profile-photo {

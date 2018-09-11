@@ -65,6 +65,10 @@ class ProjectsSection extends Component {
             alt: 'circle-2'
         },
         {
+            link: require('../../../public/camp/camp3.png'),
+            alt: 'circle-3'
+        },
+        {
             link: require('../../../public/camp/camp4.jpg'),
             alt: 'circle-4'
         },

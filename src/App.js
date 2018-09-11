@@ -7,6 +7,8 @@ import { slide as Menu } from 'react-burger-menu'
 import scrollToComponent from 'react-scroll-to-component'
 import AOS from 'aos'
 import { Helmet } from 'react-helmet'
+import { LocalizeProvider } from "react-localize-redux";
+
 import 'aos/dist/aos.css'
 //
 import './app.scss'
@@ -53,25 +55,27 @@ class App extends Component {
           <title>Selena Kim</title>
           <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
         </Helmet>
-        <div className="App">
-          <div className='menu-drawer'>
-            <Menu isOpen={this.state.isOpen}>
-              <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.bioRef)} >home</button>
-              <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.aboutRef)} >about</button>
-              <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.projectsRef)} >projects</button>
-              <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.blogRef)} >blog</button>
-              <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.contactRef)} >contact</button>
-            </Menu>
-          </div>
+        <LocalizeProvider>
+          <div className="App">
+            <div className='menu-drawer'>
+              <Menu isOpen={this.state.isOpen}>
+                <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.bioRef)} >home</button>
+                <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.aboutRef)} >about</button>
+                <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.projectsRef)} >projects</button>
+                <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.blogRef)} >blog</button>
+                <button type='button' className='nav-item' onClick={() => this.navigateTo('top', this.contactRef)} >contact</button>
+              </Menu>
+            </div>
 
-          <StickyHeader header={<Header bioRef={this.bioRef} aboutRef={this.aboutRef} projectsRef={this.projectsRef} blogRef={this.blogRef} contactRef={this.contactRef}/>} headerOnly/>
-          <div className='background-pink' data-aos='fade-down' />
-          <BioCard ref={this.bioRef}/>
-          <AboutCard ref={this.aboutRef}/>
-          <ProjectsSection ref={this.projectsRef}/>
-          <BlogSection ref={this.blogRef}/>
-          <ContactCard ref={this.contactRef} />
-        </div>
+            <StickyHeader header={<Header bioRef={this.bioRef} aboutRef={this.aboutRef} projectsRef={this.projectsRef} blogRef={this.blogRef} contactRef={this.contactRef}/>} headerOnly/>
+            <div className='background-pink' data-aos='fade-down' />
+            <BioCard ref={this.bioRef}/>
+            <AboutCard ref={this.aboutRef}/>
+            <ProjectsSection ref={this.projectsRef}/>
+            <BlogSection ref={this.blogRef}/>
+            <ContactCard ref={this.contactRef} />
+          </div>
+        </LocalizeProvider>
       </ParallaxProvider>
     )
   }

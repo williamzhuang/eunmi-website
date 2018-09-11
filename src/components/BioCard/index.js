@@ -1,15 +1,39 @@
 import React, { Component } from 'react'
+import { Translate } from "react-localize-redux";
+import { withLocalize } from "react-localize-redux";
+import { renderToStaticMarkup } from "react-dom/server";
+
+import globalTranslations from'../../translations/global.json'
 
 import './style.scss'
 
 class BioCard extends Component {
+    constructor(props) {
+        super(props);
+        this.props.initialize({
+            languages: [
+              { name: "Korean", code: "kr" },
+              { name: "English", code: "en" }
+              
+            ],
+            translation: globalTranslations,
+            options: {
+              renderToStaticMarkup,
+              renderInnerHtml: true,
+              defaultLanguage: "kr",
+            }
+          })
+
+        this.props.addTranslation(globalTranslations)
+
+    }
     render() {
         return (
             <div className='bio-card' >
                 <div className='left-column'>
                     <div className='name-card' data-aos='fade-right'>
                         <div className='career-title'>
-                            marketer profile
+                            <Translate id='marketerProfile'/>
                         </div>
                         <div className='giant-name'>
                             Eunmi<br/>
@@ -19,10 +43,7 @@ class BioCard extends Component {
                     <div className='biography' data-aos='fade-up'>
                         <h1>biography</h1>
                         <p>
-                            Hello, I’m Eunmi, a creative marketer based in Seoul, South Korea.
-                            I've interned at a headwear company in LA and an events management startup in Seoul.
-                            I've been maintaining my own blog for 3 years, pulling in over 1,000 readers a day while leveraging Google Adwords.
-                            My specialty is online marketing.
+                            <Translate id='biography'/>
                         </p>
                     </div>
                 </div>
@@ -37,4 +58,4 @@ class BioCard extends Component {
     }
 }
 
-export default BioCard
+export default withLocalize(BioCard)

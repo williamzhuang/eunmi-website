@@ -10,12 +10,11 @@ class ProjectCard extends Component {
 
         const settings = {
             infinite: true,
-            autoplaySpeed: 3000,
-            autoplay: true,
             speed: 500,
+            arrows: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            
+            dots: true,
         }
 
         this.state = {

@@ -1,12 +1,31 @@
 import React, { Component } from 'react'
 
 import ProjectCard from '../ProjectCard'
+import globalTranslations from'../../translations/global.json'
+import { withLocalize, Translate } from "react-localize-redux";
+import { renderToStaticMarkup } from "react-dom/server";
 
 import './style.scss'
 
 class ProjectsSection extends Component {
     constructor(props) {
         super(props)
+
+        this.props.initialize({
+            languages: [
+              { name: "Korean", code: "kr" },
+              { name: "English", code: "en" }
+              
+            ],
+            translation: globalTranslations,
+            options: {
+              renderToStaticMarkup,
+              renderInnerHtml: true,
+              defaultLanguage: "kr",
+            }
+          })
+
+        this.props.addTranslation(globalTranslations)
 
         const flexfitImages = [{
             link: require('../../../public/flexfit/flexfit-1.png'),
@@ -97,39 +116,31 @@ class ProjectsSection extends Component {
             <div className='projects-section' >
                 <h1 data-aos='fade-up' >projects</h1>
                 <ProjectCard images={this.state.flexfitImages}>
-                    <h2>Global Communication</h2>
-                    <h3>Internship at Flexfit LLC (Jan - June 2018)</h3>
+                    <h2><Translate id='projects.project1.title'/></h2>
+                    <h3><Translate id='projects.project1.subtitle'/></h3>
                     <p>
-                        Made 12 reports on market research, marketing strategy, trend issue.
-                        Reported daily sales, amazon sell-through. Translated long-term marketing strategies
-                        and created trade show and sell-through reports.
+                        <Translate id='projects.project1.description'/>
                     </p>
                 </ProjectCard>
                 <ProjectCard images={this.state.circleImages} reverse>
-                    <h2>SNS Blog and Facebook Marketing</h2>
-                    <h3>Internship at Circle Connection Event Management (Dec - Feb 2017)</h3>
+                    <h2><Translate id='projects.project2.title'/></h2>
+                    <h3><Translate id='projects.project2.subtitle'/></h3>
                     <p>
-                        Prepared the entrepreneur camp event for over 130 attendees. Managed company's
-                        blog by organizing advertising events. Made drafts for advertising materials and
-                        advertised the company through storytelling on Facebook.
+                        <Translate id='projects.project2.description'/>
                     </p>
                 </ProjectCard>
                 <ProjectCard images={this.state.akmallImages}>
-                    <h2>Online Blog Marketing</h2>
-                    <h3>University Students Marketing Support, AK Mall (Apr - Dec 2016)</h3>
+                    <h2><Translate id='projects.project3.title'/></h2>
+                    <h3><Translate id='projects.project3.subtitle'/></h3>
                     <p>
-                        Uploaded 66 reviews &#38; promotions which result over 460,000 views 
-                        and won second MVP prize. putting links on the images of products with specific keywords based on SEO  
-                        to induce people to buy them. Spread content to related websites to get more attention
-                        and pull in more visitors.
+                        <Translate id='projects.project3.description'/>
                     </p>
                 </ProjectCard>
                 <ProjectCard images={this.state.nubizioImages} reverse>
-                    <h2>Content Marketing</h2>
-                    <h3>Marketing Support Team Leader, Nubizio (Feb - Mar 2015)</h3>
+                    <h2><Translate id='projects.project4.title'/></h2>
+                    <h3><Translate id='projects.project4.subtitle'/></h3>
                     <p>
-                        Filmed and edited UCC for company’s products and brand image, which resulted in over 26,000 views.
-                        Proposed events targetting seasonal trends.
+                        <Translate id='projects.project4.description'/>
                     </p>
                 </ProjectCard>
             </div>
@@ -138,4 +149,4 @@ class ProjectsSection extends Component {
     }
 }
 
-export default ProjectsSection;
+export default withLocalize(ProjectsSection);

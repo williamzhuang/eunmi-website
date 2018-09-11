@@ -12,6 +12,18 @@
         padding-left: 5em;
         padding-right: 5em;
 
+        .slick-next::before {
+            color: #4E2E28;
+        }
+
+        .slick-prev::before {
+            color: #4E2E28;
+        }
+
+        .slick-dots li button:before {
+            color: #4E2E28;
+        }
+
         img {
             width: 100%;
             transition: all 0.2s ease;

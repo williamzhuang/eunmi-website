@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700');
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
@@ -25,14 +26,14 @@ body {
   margin-left: 2em;
   height: 25em;
   width: 100%;
-  background-color: #FDAFB0;
+  background-color: #fcd411;
   overflow: hidden;
   z-index: -1;
 }
 
 h1 {
   font-size: 2.5em;
-  color: #FDAFB0;
+  color: #fcd411;
 }
 
 .bm-burger-button {
@@ -78,7 +79,7 @@ h1 {
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-    background-color: #FDAFB0;
+    background-color: #fcd411;
     overflow: hidden!important;
   }
 

@@ -1,0 +1,78 @@
+{
+    "marketerProfile": ["marketer profile", "marketer profile"],
+    "biography": ["좋은 마케팅이란 사소한 것을 자세히 들여다보는 과정에서 시작됩니다. 고객의 작은 불편을 알고, 때론 그들조차 알지 못했던 니즈를 파악하여 충족시켜 제품/서비스의 가치를 전달할 수 있기 때문입니다.저는 사소함의 중요성을 아는 마케터가 되고 싶습니다. 누구나 쉽게 지나칠 수 있을 법한 요소를 귀기울여 생각하며 소비자가 좀 더 원하는 삶에 도달할 수 있도록, 그 과정 속에서 브랜드 가치가 그들의 마음 속에 전달이 되도록 노력하겠습니다.", 
+        
+        "Hello, I’m Eunmi, a creative marketer based in Seoul, South Korea. I've interned at a headwear company in LA and an events management startup in Seoul. I've been maintaining my own blog for 3 years, pulling in over 1,000 readers a day while leveraging Google Adwords. My specialty is online marketing."],
+    "about": {
+        "awards": {
+            "award1": {
+                "title": ["서울여자대학교 에세이 콘테스트", "Seoul Women's Univ. Essay Contest"],
+                "subtitle": ["‘인생은 선택과 후회의 과정’ 수상", "1st Place"]
+            },
+            "award2": {
+                "title": ["AK Mall 쇼핑 블로거", "AK Mall Shopping Blogger"],
+                "subtitle": ["활동우수자 선정"]
+            },
+            "award3": {
+                "title": ["Nubizio 마케팅/MD", "Nubizio Marketing & MD"],
+                "subtitle": ["활동우수자 선정", "Top Marketer Award"]
+            }
+        },
+        "education": {
+            "education1": {
+                "title": ["서울여자대학교", "Bachelor's Degree"],
+                "subtitle": ["영어영문학과", "English Language & Literature"]
+            }
+        },
+        "experience": {
+            "experience1": {
+                "title": ["마케팅 인턴 (USA)", "Marketing Intern (USA)"],
+                "subtitle": ["Flexfit LLC", "Flexfit LLC"]
+            },
+            "experience2": {
+                "title": ["마케팅 인턴 (한국)", "Marketing Intern (Seoul)"],
+                "subtitle": ["써클커넥션", "Circle Connection"]
+            }
+        },
+        "skills": {
+            "skill1": {
+                "title": ["파워포인트", "Microsoft Power Point"],
+                "subtitle": ["Excellent"]
+            },
+            "skill2": {
+                "title": ["엑셀", "Microsoft Excel"],
+                "subtitle": ["Proficient"]
+            },
+            "skill3": {
+                "title": ["워드", "Microsoft Word"],
+                "subtitle": ["Excellent"]
+            },
+            "skill4": {
+                "title": ["콘텐츠 제작 능력 상 블로그 4년 간 운영 중", ""],
+                "subtitle": ["이웃 2,000"]
+            }
+        }
+    },
+    "projects": {
+        "project1": {
+            "title": ["마케팅 인턴쉽", "Global Communication"],
+            "subtitle": ["Flexfit, LLC in USA (2018.01.02 ~ 2018.06.30)", "Internship at Flexfit LLC (Jan - June 2018)"],
+            "description": ["6개월 간 12개의 마케팅 리포트 작성\n(시장조사, 마케팅 전략, 산업 이슈)\n중장기 마케팅 전략 서포트\n데일리 세일즈 보고\n트레이드 쇼 고객 응대\n인스타그램 사진 촬영\n인보이스 취합 및 관리\n","Made 12 reports on market research, marketing strategy, trend issue. Reported daily sales, amazon sell-through. Translated long-term marketing strategies and created trade show and sell-through reports."]
+        },
+        "project2": {
+            "title": ["마케팅 인턴", "SNS Blog and Facebook Marketing"],
+            "subtitle": ["써클커넥션, 행사 대행사 (2016.12.19 - 2017.02.17)", "Internship at Circle Connection Event Management (Dec - Feb 2017)"],
+            "description": ["기업 블로그 관리 (행사 홍보 및 기업 소개)\n행사 관련 물품 발주 및 참가자 관리\n주도적인 광고 집행을 통한 참가자 30% 증대\n스토리텔링 기반 페이스북 광고 컨텐츠 초안 제작\n베타 버전 사이트 UI/UX 개선", "Prepared the entrepreneur camp event for over 130 attendees. Managed company's blog by organizing advertising events. Made drafts for advertising materials and advertised the company through storytelling on Facebook."]
+        },
+        "project3": {
+            "title": ["쇼핑 블로거", "Online Blog Marketing"],
+            "subtitle": ["AK Mall (2016.04.10 ~ 2016.12.30)", "University Students Marketing Support, AK Mall (Apr - Dec 2016)"],
+            "description": ["이벤트 프로모션 및 제품 리뷰 콘텐츠 66개 제작 조회수 460,000 달성, 우수 서포터즈 수상\n네이버 검색광고 키워드 및 스토리텔링을 통한 콘텐츠 제작\n사이트 링크 삽입 통해 실제 구매 유도\n관련 사이트에 바이럴마케팅\n방문자 통계 분석을 통해 20대 여자 유입이 많은 걸 발견\n네이버 검색광고 이용하여 키워드 선정 (남자친구 선물추천, 여자 립스틱 추천 등)+ 이미지에 URL 실제 구매 활용으로 유도\n파우더룸, 레몬 테라스 등 관련 카페에 바이럴 마케팅", "Uploaded 66 reviews and promotions which resulted in over 460,000 views and won second MVP prize. putting links on the images of products with specific keywords based on SEO to induce people to buy them. Spread content to related websites to get more attention and pull in more visitors."]
+        },
+        "project4": {
+            "title": ["MD/마케팅 서포터즈 ", "Content Marketing"],
+            "subtitle": ["누비지오, 온라인 이불회사 (2015.02.01 ~ 2015.03.29)", "Marketing Support Team Leader, Nubizio (Feb - Mar 2015)"],
+            "description": ["스토리텔링 기반 홍보 UCC 기획 및 제작\n조회수 26,000회 이상 기록\n타겟과 시즌의 특성에 맞춘 이벤트 기획 및 실행, 바이럴 마케팅", "Filmed and edited UCC for company’s products and brand image, which resulted in over 26,000 views. Proposed events targetting seasonal trends."]
+        }
+    }
+}

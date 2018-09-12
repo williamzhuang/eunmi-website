@@ -16,10 +16,10 @@ class ContactCard extends Component {
                 </div>
                 <div className='social' data-aos='fade-left'>
                     <h1> social </h1>
-                    <h2> <a className='facebook' href='https://www.facebook.com/kem3223'>facebook</a> </h2>
-                    <h2> <a className='instagram' href='https://www.instagram.com/you_myday/'>instagram</a> </h2>
                     <h2> <a className='linkedin' href='https://www.linkedin.com/in/eunmi-kim-6a936514a/'>linkedin</a> </h2>
                     <h2> <a className='naver' href='https://blog.naver.com/PostList.nhn?blogId=em7488'>naver</a> </h2>
+                    <h2> <a className='facebook' href='https://www.facebook.com/kem3223'>facebook</a> </h2>
+                    <h2> <a className='instagram' href='https://www.instagram.com/you_myday/'>instagram</a> </h2>
                 </div>
                 
             </div>

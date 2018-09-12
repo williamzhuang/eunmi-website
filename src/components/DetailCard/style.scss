@@ -1,4 +1,4 @@
-.project-card {
+.detail-card {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
@@ -41,21 +41,23 @@
         width: 50%;
         padding-left: 5em;
         padding-right: 5em;
+        h1 {
+            margin: 0;
+            font-size: 1.75em;
+        }
 
         h2 {
-            font-size: 1.7em;
-            margin: 0;
+            margin-top: 0;
         }
 
         h3 {
             margin: 0;
         }
-        
 
         p {
-            font-size: 1.5em;
+            margin-top: 0;
         }
-
+        
         .view-more-container { 
     
             .download-button {
@@ -127,7 +129,7 @@
 }
 
 @media only screen and (max-width: 961px) {
-    .project-card {
+    .detail-card {
         flex-direction: column-reverse;
         padding-top: 0em;
 

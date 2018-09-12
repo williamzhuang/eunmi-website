@@ -3,6 +3,17 @@
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 
 export default {
+    getRoutes: async ({ dev }) => [
+      // A simple route
+      {
+        path: '/',
+        component: 'src/components/HomePage'
+      },
+      {
+        path: '/flexfit',
+        component: 'src/components/DetailPage'
+      }
+    ],
     webpack: (config, { defaultLoaders, stage }) => {
         let loaders = []
     

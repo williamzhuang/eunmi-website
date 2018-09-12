@@ -42,18 +42,6 @@ class ProjectsSection extends Component {
         {
             link: require('../../../public/flexfit/flexfit-5.png'),
             alt: 'flexfit-4'
-        },
-        {
-            link: require('../../../public/flexfit/flexfit-6.png'),
-            alt: 'flexfit-5'
-        },
-        {
-            link: require('../../../public/flexfit/flexfit-7.png'),
-            alt: 'flexfit-6'
-        },
-        {
-            link: require('../../../public/flexfit/flexfit-11.png'),
-            alt: 'flexfit-7'
         }];
 
         const circleImages = [{
@@ -119,14 +107,14 @@ class ProjectsSection extends Component {
         return (
             <div className='projects-section' >
                 <h1 data-aos='fade-up' >projects</h1>
-                <ProjectCard images={this.state.flexfitImages}>
+                <ProjectCard images={this.state.flexfitImages} href='/flexfit'>
                     <h2><Translate id='projects.project1.title'/></h2>
                     <h3><Translate id='projects.project1.subtitle'/></h3>
                     <p>
                         <Translate id='projects.project1.description'/>
                     </p>
                 </ProjectCard>
-                <ProjectCard images={this.state.circleImages} reverse>
+                <ProjectCard images={this.state.circleImages} href='/circle-connection' reverse>
                     <h2><Translate id='projects.project2.title'/></h2>
                     <h3><Translate id='projects.project2.subtitle'/></h3>
                     <p>

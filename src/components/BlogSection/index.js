@@ -11,7 +11,7 @@ class BlogSection extends Component {
                 <div className='blogs-container'>
                     <div className='blog-entry' data-aos='fade-up' >
                         <div className='image-container'>
-                            <img alt='blog-1' src={require('../../../public/blossom.jpg')}/>
+                            <img alt='blog-1' src={require('../../../public/blog/blog1.png')}/>
                         </div>
                         
                         <h4>travelling / information</h4>
@@ -19,14 +19,14 @@ class BlogSection extends Component {
                     </div>
                     <div className='blog-entry secondary' data-aos='fade-up' >
                         <div className='image-container'>
-                            <img alt='blog-1' src={require('../../../public/blossom.jpg')}/>
+                            <img alt='blog-1' src={require('../../../public/blog/blog2.png')}/>
                         </div>
                         <h4>travelling / information</h4>
                         <h3>what you should know about couchsurfing</h3>
                     </div>
                     <div className='blog-entry secondary' data-aos='fade-up'>
                         <div className='image-container'>
-                            <img alt='blog-1' src={require('../../../public/blossom.jpg')}/>
+                            <img alt='blog-1' src={require('../../../public/blog/blog3.png')}/>
                         </div>
                         <h4>travelling / information</h4>
                         <h3>what you should know about couchsurfing</h3>
@@ -34,21 +34,7 @@ class BlogSection extends Component {
 
                     <div className='blog-entry secondary' data-aos='fade-up' >
                         <div className='image-container'>
-                            <img alt='blog-1' src={require('../../../public/blossom.jpg')}/>
-                        </div>
-                        <h4>travelling / information</h4>
-                        <h3>what you should know about couchsurfing</h3>
-                    </div>
-                    <div className='blog-entry secondary' data-aos='fade-up' >
-                        <div className='image-container'>
-                            <img alt='blog-1' src={require('../../../public/blossom.jpg')}/>
-                        </div>
-                        <h4>travelling / information</h4>
-                        <h3>what you should know about couchsurfing</h3>
-                    </div>
-                    <div className='blog-entry secondary' data-aos='fade-up' >
-                        <div className='image-container'>
-                            <img alt='blog-1' src={require('../../../public/blossom.jpg')}/>
+                            <img alt='blog-1' src={require('../../../public/blog/blog4.png')}/>
                         </div>
                         <h4>travelling / information</h4>
                         <h3>what you should know about couchsurfing</h3>

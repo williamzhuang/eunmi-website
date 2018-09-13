@@ -12,15 +12,15 @@ class Header extends Component {
                     className='logo-container' 
                     data-aos='fade-right' 
                     data-aos-delay={150} 
-                    onClick={() => scrollToComponent(this.props.bioRef, {align: 'top', duration: 750})}>
+                    onClick={() => scrollToComponent(this.props.bioRef.current, {align: 'top', duration: 750})}>
                     <img className='moon-logo' alt='moon-logo' src={require('../../../public/moon.png')} />
                 </button>
                 
                 <div className='nav-bar'>
-                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.aboutRef, {align: 'middle', duration: 750})} data-aos='fade-left' data-aos-delay={150} >about</button>
-                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.projectsRef, {align: 'top', offset: -100, duration: 750})} data-aos='fade-left' data-aos-delay={250}>projects</button>
-                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.blogRef, {align: 'top', offset: -100, duration: 750})} data-aos='fade-left' data-aos-delay={350}>blog</button>
-                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.contactRef, {align: 'middle', offset: 100, duration: 750})} data-aos='fade-left' data-aos-delay={450}>contact</button>
+                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.aboutRef.current, {align: 'top', duration: 750})} data-aos='fade-left' data-aos-delay={150} >about</button>
+                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.projectsRef.current, {align: 'top', offset: 0, duration: 750})} data-aos='fade-left' data-aos-delay={250}>projects</button>
+                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.blogRef.current, {align: 'top', offset: 0, duration: 750})} data-aos='fade-left' data-aos-delay={350}>blog</button>
+                    <button type='button' className='nav-item' onClick={() => scrollToComponent(this.props.contactRef.current, {align: 'middle', offset: 100, duration: 750})} data-aos='fade-left' data-aos-delay={450}>contact</button>
                 </div>
             </div>
         )

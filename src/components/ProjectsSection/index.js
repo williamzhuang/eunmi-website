@@ -36,12 +36,36 @@ class ProjectsSection extends Component {
             alt: 'flexfit-2'
         },
         {
-            link: require('../../../public/flexfit/flexfit-4.png'),
+            link: require('../../../public/flexfit/flexfit-3.png'),
             alt: 'flexfit-3'
         },
         {
-            link: require('../../../public/flexfit/flexfit-5.png'),
+            link: require('../../../public/flexfit/flexfit-4.png'),
             alt: 'flexfit-4'
+        },
+        {
+            link: require('../../../public/flexfit/flexfit-5.png'),
+            alt: 'flexfit-5'
+        },
+        {
+            link: require('../../../public/flexfit/flexfit-6.png'),
+            alt: 'flexfit-6'
+        },
+        {
+            link: require('../../../public/flexfit/flexfit-7.png'),
+            alt: 'flexfit-7'
+        },
+        {
+            link: require('../../../public/flexfit/flexfit-8.png'),
+            alt: 'flexfit-8'
+        },
+        {
+            link: require('../../../public/flexfit/flexfit-9.png'),
+            alt: 'flexfit-9'
+        },
+        {
+            link: require('../../../public/flexfit/flexfit-10.png'),
+            alt: 'flexfit-10'
         }];
 
         const circleImages = [{

@@ -30,10 +30,11 @@ class FlexfitDetailPage extends Component {
                 </DetailCard>
                 <DetailCard images={[{link: require('../../../public/flexfit/flexfit-4.png'), alt: 'flex-4'}]}>
                     <h1>트렌드 리포트</h1>
-                    <h2>LA 시장조사를 통해 스토어별 트렌드 및 마케팅 전략 파악, 벤치마킹 전략 수립</h2>
+                    <h2>LA 시장조사를 통해 스토어별 트렌드 및 마케팅 전략 파악</h2>
+                    <h2>벤치마킹 전략 수립</h2>
                     
                     <h3>결과</h3>
-                    <h3 className='pink'>시장조사 리포트 다른 인턴에게 리소스로 주어짐</h3>
+                    <p className='pink'>시장조사 리포트 다른 인턴에게 리소스로 주어짐</p>
                     
                     <h3>문제</h3>
                     <p>첫 오프라인 시장조사인데 명확한 가이드라인이 없어서 어려웠음.</p>
@@ -41,7 +42,7 @@ class FlexfitDetailPage extends Component {
                     <h3>행동</h3>
                     <ol>
                         <li>이전의 시장조사 보고서를 통해 보고서의 전체적인 흐름을 익히고 조사 시작.</li>
-                        <li>제품들의 공통된 특징을 파악한 후 세부 기준 설정. (예를 들어 남녀의 경계가 허물어지는 디자인이 많이 보인다면, 패턴, 재질, 컬러, Trim을 기준으로 제품을 상세히 살펴봄.)</li>
+                        <li>제품들의 공통된 특징을 파악한 후 세부 기준 설정.</li>
                         <li>조사한 내용을 기억하기 위해 매장 별 특징을 노트에 기록</li>
                         <li>덕분에 필요한 정도의 양만 사진을 찍으면 되었고, 보고서를 작성할 때도 효율적이었음.</li>
                     </ol>
@@ -80,7 +81,8 @@ class FlexfitDetailPage extends Component {
                 </DetailCard>
                 <DetailCard images={[{link: require('../../../public/flexfit/flexfit-2.png'), alt: 'flex-2'}]}>
                     <h1>착한 마케팅</h1>
-                    <h2>착한 마케팅의 필요성, 참신한 사례, 기대효과를 스토리텔링 형식으로 작성</h2>
+                    <h2>착한 마케팅의 필요성, 참신한 사례, 기대효과를</h2>
+                    <h2>스토리텔링 형식으로 작성</h2>
                     <h3>결과</h3>
                     <p className='pink'>중장기 마케팅 전략 서포트 자료로 활용됨</p>
 

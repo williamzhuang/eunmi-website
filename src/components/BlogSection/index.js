@@ -61,7 +61,7 @@ class BlogSection extends Component {
                     <div className='blog-entry secondary'  >
                         <div className='image-container'>
                             <a href='https://blog.naver.com/em7488/220973851491'>
-                                <img alt='blog-1' src={require('../../../public/blog/blog6.png')}/>
+                                <img alt='blog-1' src={require('../../../public/blog/blog6.jpeg')}/>
                             </a>
                         </div>
                         <h4><a href='https://blog.naver.com/em7488/220973851491'>travel/lifestyle</a></h4>

@@ -38,7 +38,8 @@
     "redux": "^4.0.0",
     "sass-loader": "^7.1.0",
     "slick-carousel": "^1.8.1",
-    "tween": "^0.9.0"
+    "tween": "^0.9.0",
+    "typeface-nanum-square": "^1.1.0"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",

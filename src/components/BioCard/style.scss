@@ -26,23 +26,33 @@
                 font-family: 'Poppins', sans-serif;
             }
 
-            .giant-name {
+            .giant-first-name {
+                font-size: 7em;
+                font-family: 'Noto Serif', serif;
+                padding-top: 0.35em;
+                margin-bottom:-0.35em;
+            }
+
+            .giant-last-name {
                 font-size: 7em;
                 font-family: 'Noto Serif', serif;
             }
         }
     
         .biography {
-            font-family: 'Poppins', sans-serif;
-
+        
             h1 {
+                font-family: 'Poppins', sans-serif;
                 color:#FDAFB0;    
             }
 
             p {
-                font-size: 1.5em;
+                font-family: 'Nanum Square', sans-serif;
+                font-weight: 400;
+                font-size: 1.6em;
+                color: #666666
             }
-            padding-top: 2em;
+            padding-top: 1em;
         }
     }
 
@@ -75,7 +85,7 @@
                 p {
                     padding-left: 1em;
                     padding-right: 1em;
-                    font-size: 1.2em;
+                    font-size: 1.3em;
                 }
             }
 

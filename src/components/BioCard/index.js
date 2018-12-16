@@ -35,8 +35,10 @@ class BioCard extends Component {
                         <div className='career-title'>
                             <Translate id='marketerProfile'/>
                         </div>
-                        <div className='giant-name'>
-                            Eunmi<br/>
+                        <div className='giant-first-name'>
+                            Eunmi
+                        </div>
+                        <div className='giant-last-name'>
                             Kim
                         </div>
                     </div>

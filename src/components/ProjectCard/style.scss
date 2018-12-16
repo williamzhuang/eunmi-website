@@ -43,17 +43,23 @@
         padding-right: 5em;
 
         h2 {
-            font-size: 1.7em;
+            font-size: 2em;
             margin: 0;
         }
 
         h3 {
+            font-family: 'Nanum Square', sans-serif;
+            font-weight: 700;
             margin: 0;
+            font-size: 1.6em;
         }
         
 
         p {
-            font-size: 1.5em;
+            font-family: 'Nanum Square', sans-serif;
+            font-weight: 400;
+            font-size: 1.4em;
+            color: #666666
         }
 
         .view-more-container { 
@@ -143,7 +149,7 @@
                 padding-top: 2em;
             }
             p {
-                font-size: 1.1em;
+                font-size: 1.4em;
             }
 
             .view-more-container {
@@ -168,7 +174,7 @@
             width: 80%!important;
             text-align: center!important;
             p {
-                font-size: 1.1em!important;
+                font-size: 1.4em!important;
             }
 
             .view-more-container {
